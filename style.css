@@ -1,3 +1,18 @@
 * {
     box-sizing: border-box;
 }
+.body{
+    font-family: Arial, sans-serif;
+}
+.section-header{
+    width: 100%;
+    max-height: 323px;
+    background-color: #445162;
+    color: #ffffff;
+}
+.header__list{
+    list-style: none;
+}
+.header__item{
+    display: flex;  
+}
