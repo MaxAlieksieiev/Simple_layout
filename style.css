@@ -30,12 +30,17 @@ body, h1{
 }
 .header__list{
     list-style: none;
-    padding-left: 0;
-    
+    padding-left: 0; 
 }
 .header__item{
     display: flex;
+    align-items: flex-start;
+    padding-bottom: 1em;
 }
-.header__item:nth-child(odd){
-    line-height: 2.25em;
+.header__image{
+    margin-right: 0.5em;
+}
+.header__advantage{
+    font-size: 1.25em;
+    font-weight: 400;
 }
