@@ -107,7 +107,7 @@ body, h1, ul{
 .advantages__text{
     padding-left: 2.93em;
     position: relative;
-    /* line-height: 1.5em; */
+    line-height: 1em;
 }
 .advantages__item{
     padding-bottom: 2.185em;
@@ -186,6 +186,9 @@ body, h1, ul{
         width: 100%;
         height: auto;
     }
+    .advantages__item{
+        text-align: justify;
+    }
 }
 
 
@@ -211,6 +214,11 @@ body, h1, ul{
         width: 100%;
         height: auto;
     }
-    
+    .advantages__list{
+        flex-direction: column;
+    }
+    .advantages__item{
+        text-align: justify;
+    }
 
 }
