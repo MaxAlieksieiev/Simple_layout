@@ -5,7 +5,7 @@ html{
 *, *:after, *:before{
     box-sizing: inherit;
 }
-body, h1{
+body, h1, ul{
     margin: 0;
     padding: 0;
 }
@@ -75,6 +75,7 @@ body, h1{
 .about__title{
     font-size: 1.875em;
     font-weight: 400;
+    color: #445161;
 }
 .about__description{
     line-height: 1.5em;
@@ -84,14 +85,41 @@ body, h1{
     width: 100%;
     max-height: 245px;
 }
-
-
-
-
-
-
-
-
+.advantages{
+    background-color: #f5f5f5;
+}
+.title{
+    color: #445161;
+    font-size: 1.875em;
+    font-weight: 400;
+    line-height: 2.25em;
+}
+.advantages__title{
+    text-align: center;
+}
+.advantages__list{
+    display: flex;
+    list-style: none;
+}
+.advantages__left-side{
+    margin-right: 1em;
+}
+.advantages__text{
+    padding-left: 2.93em;
+    position: relative;
+    /* line-height: 1.5em; */
+}
+.advantages__item{
+    padding-bottom: 2.185em;
+}
+.advantages__text::before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-image: url('./img/3-layers.png');
+    position: absolute;
+    left: 0;
+}
 
 
 
