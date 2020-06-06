@@ -9,6 +9,9 @@ body, h1, ul{
     margin: 0;
     padding: 0;
 }
+ul{
+    list-style: none;
+}
 .section-header{
     background-color: #445162;
     /* max-height: 323px; */
@@ -150,11 +153,22 @@ body, h1, ul{
     width: 100%;
     max-height: 150px;
 }
-
-
-
-
-
+.reviews{
+    background-color: #f5f5f5;
+}
+.reviews__title{
+    text-align: center;
+}
+.reviews__list{
+    display: flex;
+}
+.reviews__left-side{
+    margin-right: 1.875em;
+}
+.reviews__left-side, .reviews__right-side{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
