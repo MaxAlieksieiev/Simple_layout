@@ -181,7 +181,7 @@ ul{
 .reviews__content{
     display: flex;
     flex-direction: column;
-    padding: 1em;
+    padding:1em;
     margin-left: 1em;
     background-color: rgb(235, 235, 235);
     font-size: .875em;
@@ -200,9 +200,9 @@ ul{
     content: '';
     position: absolute;
     top: 25%;
-    left: -4.5%;
-    border: 10px solid transparent;
-    border-right: 10px solid rgb(235, 235, 235);
+    left: -1.56em;
+    border: 1em solid transparent;
+    border-right: 1em solid rgb(235, 235, 235);
     z-index: 2;
 }
 .reviews__author{
@@ -300,6 +300,13 @@ ul{
     .scrinshots__left-side{
         margin-left: 0;
     }
+    .reviews__list{
+        flex-wrap: wrap;
+    }
+    .reviews__left-side{
+        margin-right: 0;
+    }
+
 }
 
 
@@ -351,5 +358,11 @@ ul{
     }
     .scrinshots__image{
         padding-right:0;
+    }
+    .reviews__list{
+        flex-wrap: wrap;
+    }
+    .reviews__left-side{
+        margin-right: 0;
     }
 }
