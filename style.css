@@ -209,7 +209,9 @@ ul{
     padding-top: 1em;
     color: rgb(152, 152, 152);
 }
-
+.prices__title{
+    text-align:center;
+}
 
 
 
