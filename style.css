@@ -6,7 +6,7 @@ html{
 *, *:after, *:before{
     box-sizing: inherit;
 }
-body, h1, ul{
+body, h1, ul, ol{
     margin: 0;
     padding: 0;
 }
@@ -209,12 +209,33 @@ ul{
     padding-top: 1em;
     color: rgb(152, 152, 152);
 }
+.prices__item{
+    max-width: 300px;
+    padding: 1.125em;
+    background-color: #445162;
+    color: #ffffff;
+}
 .prices__title{
     text-align:center;
+    
 }
-
-
-
+.prices__list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.prices__item-title{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+.prices__item-price{
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #ffffff;
+    color: #445162;
+    
+}
 
 
 
