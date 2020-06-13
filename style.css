@@ -265,13 +265,40 @@ a{
     text-transform: uppercase;
     border-radius: 0.25em;
 }
+.contacts{
+    background-color: #445162;
+    
+}
+.contacts__title{
+    text-align:center;
+    color: #fff;
+}
+.contacts__inner{
+    max-width: 790px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.contacts__left-side{
+    max-width: 500px;
+    width: 100%;
+}
+.contacts__form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+}
 
-
-
-
-
-
-
+.contacts__name,
+.contacts__email,
+.contacts__message{
+    margin-bottom: 1.125em;
+    border-radius: .1875em;
+    padding:.875em;
+    border:none;
+}
 
 
 
