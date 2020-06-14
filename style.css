@@ -298,8 +298,15 @@ a{
     border-radius: .1875em;
     padding:.875em;
     border:none;
+    outline: none;
 }
-
+.contacts__send{
+    border: none;
+    outline: none;
+    padding:.875em 2.9375em;
+    color: #445162;
+    align-self: center;
+}
 
 
 
