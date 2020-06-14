@@ -283,6 +283,7 @@ a{
 .contacts__left-side{
     max-width: 500px;
     width: 100%;
+    margin-left: 1.5em;
 }
 .contacts__form{
     display: flex;
@@ -307,11 +308,22 @@ a{
     color: #445162;
     align-self: center;
 }
-
-
-
-
-
+.contacts__right-side{
+    color: #ecedee;
+    margin-left: 2em;
+}
+.contacts__link{
+    display: flex;
+    margin-bottom: 1em;
+    align-items:center;
+}
+.contacts__image{
+    margin-right: .3125em;
+}
+.contacts__social-links{
+    margin-top: 1.875em;
+    display: block;
+}
 
 
 
