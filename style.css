@@ -324,7 +324,11 @@ a{
     margin-top: 1.875em;
     display: block;
 }
-
+.footer__text{
+    text-align: center;
+    color: #445162;
+    font-size: .75em;
+}
 
 
 
